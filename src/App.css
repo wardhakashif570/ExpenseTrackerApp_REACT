@@ -1,0 +1,40 @@
+.container{
+  max-width:400px;
+  min-height: 450px;
+  margin :0 auto;
+  background-color:gainsboro;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding:15px 50px;
+}
+.text-center{
+  text-align: center;
+}
+.expense-container{
+  display: flex;
+  justify-content: space-between;
+  background-color:white ;
+  box-shadow: 0 0 15px rgb(184, 147, 147);
+}
+.transaction-form input{
+  width:100%;
+  margin: 10px 0;
+  padding:5px 5px;
+
+  margin: 5px 0;
+}
+.transaction-list{
+  margin:0;
+  padding: 0;
+
+}
+.transaction-list > li{
+  display: flex;
+  justify-content:space-between ;
+  box-shadow: 0 0 10px gray;
+  padding: 5px 5px;
+  background-color: white;
+  margin:5px 0;
+  border-radius: 10px;
+
+}
